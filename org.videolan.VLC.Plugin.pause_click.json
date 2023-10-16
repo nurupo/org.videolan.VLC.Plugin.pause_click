@@ -18,7 +18,7 @@
       "buildsystem": "simple",
       "build-options": {
         "env": {
-          "MAKEFLAGS": "-j $FLATPAK_BUILDER_N_JOBS"
+          "MAKEFLAGS": "-j ${FLATPAK_BUILDER_N_JOBS}"
         }
       },
       "build-commands": [
